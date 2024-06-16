@@ -1,6 +1,14 @@
 import React from "react";
 
 const projects = () => {
+  const projectcard = [
+    {
+      img: "",
+      name: "SpeedKash",
+      subText: "Fintech Web App",
+      cardText: "Enabling users save, take loan and shop for products and services"
+    },
+  ];
   return (
     <div className="projects">
       <div className="heading">
