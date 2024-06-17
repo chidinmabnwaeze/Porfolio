@@ -175,3 +175,26 @@ box-shadow: 0 0 4px ;
 .title{
   margin-bottom: 6px;
 }
+.shots{
+  border: 1px solid ;
+  height: 300px;
+}
+.slideshow{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.shot-slide{
+  display: flex;
+  background-color: red;
+}
+.slides{
+ display: flex;
+ align-self: center;
+ margin: 10px;
+
+
+}
+.slides img{
+  width: 150px;
+}

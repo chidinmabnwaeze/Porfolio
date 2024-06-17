@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Projects from "../components/projects";
 import wavingHand from "../assets/images/waving-hand.png"
+import Shots from "../components/shots";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       </section>
 
       <Projects/>
+      <Shots/>
     </div>
   );
 };
