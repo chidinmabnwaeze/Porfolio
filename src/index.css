@@ -138,6 +138,7 @@ vertical-align: middle;
 }
 .projects{
   margin: 20px;
+  padding: 20px;
 }
 .heading p{
   font-size: 1rem;
@@ -229,4 +230,20 @@ box-shadow: 0 0 4px ;
 }
 .previous p ,.next p{
   cursor: pointer;
+}
+.youtube{
+  margin: 20px;
+  padding: 20px;
+}
+.yt-section{
+  
+}
+.yt{
+  margin: 20px;
+text-align: center;
+  
+}
+.yt-video img{
+  width:350px;
+  padding: 20px;
 }

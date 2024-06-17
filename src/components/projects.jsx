@@ -39,7 +39,7 @@ const projects = () => {
         cardText:
           "Enabling users save, take loan and shop for products and services",
         source: ""
-      },
+      }
   ];
   return (
     <div className="projects">
