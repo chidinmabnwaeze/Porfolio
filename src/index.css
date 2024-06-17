@@ -66,3 +66,44 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+ 
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+ padding: 0.5rem;
+}
+.about{
+border: none;
+}
+.resume{
+  border: 1px solid grey;
+  padding: 7px;
+  border-radius: 6px;
+}
+.header button{
+  margin: 10px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+margin: 10px;
+}
+.name{
+  text-align: center;
+}

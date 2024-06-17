@@ -1,10 +1,14 @@
 import React from "react";
+import Header from "../components/Header";
+import Projects from "../components/projects";
+import wavingHand from "../assets/images/waving-hand.png"
 
 const Home = () => {
   return (
     <div className="home">
+        <Header/>
       <section className="hero">
-        <p>Welcome</p>
+        <h3>Welcome <img className="emoji" src={wavingHand} alt="" /></h3>
         <h1 className="name">
           I'm Nwogu Everistus Ugochukwu, a <br />
           <span>Backend Developer</span>
@@ -16,6 +20,8 @@ const Home = () => {
         </p>
         <button className="CTA">Send message <img src="" alt="" /></button>
       </section>
+
+      <Projects/>
     </div>
   );
 };
