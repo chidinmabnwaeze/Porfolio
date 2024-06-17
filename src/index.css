@@ -175,26 +175,58 @@ box-shadow: 0 0 4px ;
 .title{
   margin-bottom: 6px;
 }
+.link{
+  display: flex;
+  align-items: center;
+}
+.link img{
+  width: 15px;
+}
+.link a{
+  text-decoration: none;
+  color:#0F4FA8 ;
+}
 .shots{
-  border: 1px solid ;
+  /* border: 1px solid ; */
   height: 300px;
+  margin: 20px;
+  padding: 20px;
 }
 .slideshow{
   display: flex;
   flex-direction: column;
- 
+ padding: 10px 0;
 }
 .shot-slide{
   display: flex;
-  background-color: red;
+
 }
 .slides{
  display: flex;
  align-self: center;
  margin: 10px;
-
-
+ overflow: visible;
 }
 .slides img{
   width: 150px;
+}
+.previous-next{
+  display: flex;
+  justify-content: space-between;
+}
+.previous , .next{
+  display: flex;
+}
+.previous img{
+ width: 20px;
+ margin-right: 6px;
+ cursor: pointer;
+}
+.next img{
+  width: 20px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.previous p ,.next p{
+  cursor: pointer;
 }

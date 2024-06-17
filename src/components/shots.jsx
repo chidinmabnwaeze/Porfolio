@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import rectangle from "../assets/images/Rectangle slide.png";
+import arrowp from "../assets/icons/ooui_arrow-next-ltr.svg"
+import arrown from "../assets/icons/ooui_arrow-next-ltr-1.svg"
+
 
 const shots = () => {
   const [Slides, setSlides] = useState([
@@ -18,6 +21,7 @@ const shots = () => {
     <div className="shots">
       <div className="heading">
         <p>My beautiful UI shots</p>
+        <hr />
       </div>
       <div className="slideshow">
       <div className="shot-slide">
@@ -31,12 +35,12 @@ const shots = () => {
 
         <div className="previous-next">
           <div className="previous">
+            <img src={arrowp} alt="" />
             <p>Previous</p>
-            <img src="" alt="" />
           </div>
           <div className="next">
             <p>Next</p>
-            <img src="" alt="" />
+            <img src={arrown} alt="" />
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from '../assets/images/image 1.png'
+import arrowo from "../assets/icons/arrow-outward.svg"
 
 const projects = () => {
   const projectcard = [
@@ -58,6 +59,7 @@ const projects = () => {
             </div>
             <div className="link">
               <a href="">{project.link}</a>
+              <img src={arrowo} alt="" />
             </div>
           </div>
           <div className="cardText">
