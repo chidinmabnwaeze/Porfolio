@@ -6,7 +6,10 @@ const projects = () => {
       img: "",
       name: "SpeedKash",
       subText: "Fintech Web App",
-      cardText: "Enabling users save, take loan and shop for products and services"
+      link: "Live Project",
+      cardText:
+        "Enabling users save, take loan and shop for products and services",
+      source: "",
     },
   ];
   return (
@@ -15,22 +18,28 @@ const projects = () => {
         <h4>Featured Projects</h4>
         <hr />
       </div>
-      <div className="project-card">
+      {projectcard.map((project, index)=>(
+        <div className="project-card" key={index}>
         <img src="" alt="" />
         <div className="card-details">
           <div className="cardName">
             <div className="title">
-              <h3>SpeedKash</h3>
-              <p className="sub-text">Fintech Web App</p>
+              <h3>{project.name}</h3>
+              <p className="sub-text">{project.subText}</p>
+            </div>
+            <div className="link">
+              <a href="">{project.link}</a>
             </div>
           </div>
           <div className="cardText">
             <p>
-              Enabling users save, take loan and shop for products and services
+              {project.cardText}
             </p>
           </div>
         </div>
       </div>
+      ))}
+      
     </div>
   );
 };
