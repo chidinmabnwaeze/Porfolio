@@ -8,11 +8,11 @@ const Home = () => {
     <div className="home">
         <Header/>
       <section className="hero">
-        <h3>Welcome <img className="emoji" src={wavingHand} alt="" /></h3>
-        <h1 className="name">
+        <p className="welcome">Welcome <img className="emoji" src={wavingHand} alt="" /></p>
+        <p className="name">
           I'm Nwogu Everistus Ugochukwu, a <br />
-          <span>Backend Developer</span>
-        </h1>
+          <span className="role">Backend Developer</span>
+        </p>
         <p className="intro">
            I am passionate about improving the lives of others through design and
           constantly looking to learn new things everyday. I also discuss about

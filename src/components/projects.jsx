@@ -1,4 +1,5 @@
 import React from "react";
+import image1 from '../assets/images/image 1.png'
 
 const projects = () => {
   const projectcard = [
@@ -9,18 +10,46 @@ const projects = () => {
       link: "Live Project",
       cardText:
         "Enabling users save, take loan and shop for products and services",
-      source: "",
+      source: ""
     },
+    {
+        img: "",
+        name: "SpeedKash",
+        subText: "Fintech Web App",
+        link: "Live Project",
+        cardText:
+          "Enabling users save, take loan and shop for products and services",
+        source: ""
+      },
+      {
+        img: "",
+        name: "SpeedKash",
+        subText: "Fintech Web App",
+        link: "Live Project",
+        cardText:
+          "Enabling users save, take loan and shop for products and services",
+        source: ""
+      },
+      {
+        img: "",
+        name: "SpeedKash",
+        subText: "Fintech Web App",
+        link: "Live Project",
+        cardText:
+          "Enabling users save, take loan and shop for products and services",
+        source: ""
+      },
   ];
   return (
     <div className="projects">
       <div className="heading">
-        <h4>Featured Projects</h4>
+        <p>Featured Projects</p>
         <hr />
       </div>
       {projectcard.map((project, index)=>(
+        <section className="myProjects">
         <div className="project-card" key={index}>
-        <img src="" alt="" />
+        <img src={image1}alt="" />
         <div className="card-details">
           <div className="cardName">
             <div className="title">
@@ -38,6 +67,7 @@ const projects = () => {
           </div>
         </div>
       </div>
+      </section>
       ))}
       
     </div>
