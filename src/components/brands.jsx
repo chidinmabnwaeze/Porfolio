@@ -8,7 +8,13 @@ export default function Brands() {
     },
     {
         img: org1,
-      }
+      },
+      {
+        img: org1,
+      },
+      {
+        img: org1,
+      },
   ];
 
   return (

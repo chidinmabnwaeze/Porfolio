@@ -245,12 +245,21 @@ body {
 .orgs {
   display: flex;
   align-items: center;
-  margin: 30px;
+  margin: 10px;
 }
 .org {
   width: 120px;
-  display: flex;
+ 
 }
 .orgLogo {
   display: flex;
+  /* flex-direction: column; */
+
+  flex: 50%;
+  max-width: 50%;
+
+}
+.brands {
+  margin: 20px;
+  padding: 20px;
 }
