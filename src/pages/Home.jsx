@@ -6,6 +6,7 @@ import Shots from "../components/shots";
 import Youtube from "../components/Youtube";
 import OpenSource from "../components/openSource";
 import Brands from "../components/brands";
+import Findme from "../components/findMe";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
       <Youtube />
       <OpenSource/>
       <Brands/>
+      <Findme/>
 
     </div>
   );
