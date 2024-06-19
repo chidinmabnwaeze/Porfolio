@@ -4,6 +4,8 @@ import Projects from "../components/projects";
 import wavingHand from "../assets/images/waving-hand.png";
 import Shots from "../components/shots";
 import Youtube from "../components/Youtube";
+import OpenSource from "../components/openSource";
+import Brands from "../components/brands";
 
 const Home = () => {
   return (
@@ -30,6 +32,9 @@ const Home = () => {
       <Projects />
       <Shots />
       <Youtube />
+      <OpenSource/>
+      <Brands/>
+
     </div>
   );
 };
