@@ -1,12 +1,12 @@
 import React from "react";
-import linkedin from "../assets/icons/social_linkedin.png"
+import linkedin from "../assets/icons/social_linkedin.png";
 
 const findMe = () => {
-    const icons =[
-        {
-            img: linkedin
-        }
-    ]
+  const icons = [
+    {
+      img: linkedin,
+    },
+  ];
   return (
     <div className="workWithUs">
       <div className="heading">
@@ -22,17 +22,16 @@ const findMe = () => {
         </p>
       </div>
       <button className="CTA">
-          Send message <img src="" alt="" />
-        </button>
-        <div className="sm-links">
-            {icons.map(()=>(
-    <div className="icon-links">
-    <span>Find me on</span>
-    <img src={linkedin} alt="" />
-</div>
-            ))}
-        
-        </div>
+        Send message <img src="" alt="" />
+      </button>
+      <div className="sm-links">
+        {icons.map((icon, index) => (
+          <div className="icon-links" key={index}>
+            <span>Find me on</span>
+            <img src={icon.img} alt="" />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
