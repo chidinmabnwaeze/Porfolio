@@ -1,6 +1,6 @@
 import React from "react";
 import linkedin from "../assets/icons/social_linkedin.png";
-import instagram from "../assets/icons/instagram-filled.png"
+import instagram from "../assets/icons/instagram-filled.png";
 
 const findMe = () => {
   const icons = [
@@ -8,8 +8,8 @@ const findMe = () => {
       img: linkedin,
     },
     {
-        img: instagram,
-      },
+      img: instagram,
+    },
   ];
   return (
     <div className="workWithUs">
@@ -29,11 +29,11 @@ const findMe = () => {
         Send message <img src="" alt="" />
       </button>
       <div className="sm-links">
-          <div className="findMe-links" >
-            <span>Find me on</span>
-            </div>
+        <div className="findMe-links">
+          <span>Find me on</span>
+        </div>
         {icons.map((icon, index) => (
-            <div className="icon-links" key={index}>
+          <div className="icon-links" key={index}>
             <img src={icon.img} alt="" />
           </div>
         ))}

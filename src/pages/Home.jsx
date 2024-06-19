@@ -33,10 +33,9 @@ const Home = () => {
       <Projects />
       <Shots />
       <Youtube />
-      <OpenSource/>
-      <Brands/>
-      <Findme/>
-
+      <OpenSource />
+      <Brands />
+      <Findme />
     </div>
   );
 };
