@@ -10,6 +10,12 @@ const findMe = () => {
     {
       img: instagram,
     },
+    {
+      img: linkedin,
+    },
+    {
+      img: linkedin,
+    },
   ];
   return (
     <div className="workWithUs">
@@ -31,12 +37,12 @@ const findMe = () => {
       <div className="sm-links">
         <div className="findMe-links">
           <span>Find me on</span>
-        </div>
         {icons.map((icon, index) => (
-          <div className="icon-links" key={index}>
-            <img src={icon.img} alt="" />
+            <div className="icon-links" key={index}>
+            <img className="icon" src={icon.img} alt="" />
           </div>
         ))}
+        </div>
       </div>
     </div>
   );

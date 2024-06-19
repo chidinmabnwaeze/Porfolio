@@ -263,3 +263,22 @@ body {
   margin: 20px;
   padding: 20px;
 }
+.icon-links{
+  display: flex;
+  margin: 5px;
+}
+.findMe-links{
+  display: flex;
+  align-items: center;
+
+}
+.icon{
+  width: 40px;
+  align-items: center;
+}
+.sm-links{
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+  margin: 15px;
+}
