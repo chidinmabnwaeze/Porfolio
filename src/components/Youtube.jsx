@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../assets/images/youtube video.png'
+import video from '../assets/icons/youtube video.png'
 
 const youtube = () => {
     const Youtube= [

@@ -164,6 +164,7 @@ body {
 }
 .myProjects {
   margin: 20px;
+
 }
 .sub-text {
   font-size: 12px;
@@ -294,5 +295,35 @@ body {
   color: white;
   text-align: center;
   font-size: 14px;
-  
+
+}
+
+
+/* responsiveness */
+@media only screen  and (max-width:900px){
+  .options{
+display: none;
+  }
+}
+
+@media only screen  and (min-width:750px){
+  .options{
+display:flex;
+  }
+  .myProjects {
+    /* display: grid;
+    grid-template-columns: repeat(330px, 2);
+    background-color: red; */
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project-card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(235, 247, 254, 1);
+    border-radius: 10px;
+    box-shadow: 0 0 4px;
+    
+  }
 }

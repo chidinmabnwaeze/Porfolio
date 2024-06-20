@@ -47,8 +47,8 @@ const projects = () => {
         <p>Featured Projects</p>
         <hr />
       </div>
-      {projectcard.map((project, index)=>(
         <section className="myProjects">
+      {projectcard.map((project, index)=>(
         <div className="project-card" key={index}>
         <img src={image1}alt="" />
         <div className="card-details">
@@ -69,8 +69,8 @@ const projects = () => {
           </div>
         </div>
       </div>
-      </section>
       ))}
+      </section>
       
     </div>
   );
