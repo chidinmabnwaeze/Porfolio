@@ -282,3 +282,17 @@ body {
   border: 1px solid grey;
   margin: 15px;
 }
+.workWithUs{
+  margin: 20px;
+  padding: 20px;
+}
+.footer{
+  background-color: black;
+  padding: 15px;
+}
+.footer p{
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  
+}
