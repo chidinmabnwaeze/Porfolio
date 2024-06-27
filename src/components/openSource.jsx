@@ -30,7 +30,7 @@ const OpenSource = () => {
             
           <div className="yt-video" key={index}>
             <img src={open.img} alt="" />
-            <label htmlFor="name">{open.label}</label>
+            <p className="video-name">{open.label}</p>
             <p className='source-text'>{open.text}</p>
             <a href="">{open.link}</a>
           </div>

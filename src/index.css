@@ -84,6 +84,9 @@ body {
   margin: 1rem;
   padding: 0.5rem;
 }
+button:hover{
+cursor: pointer;
+}
 .about {
   border: none;
 }
@@ -238,6 +241,10 @@ body {
 .yt {
   margin: 20px;
   text-align: center;
+
+}
+.yt-video{
+  width: 370px;
 }
 .yt-video img {
   width: 350px;
@@ -253,11 +260,14 @@ body {
  
 }
 .orgLogo {
-  display: flex;
-  /* flex-direction: column; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 
-  flex: 50%;
-  max-width: 50%;
+  /* flex: 50%;
+  max-width: 50%; */
 
 }
 .brands {
@@ -319,11 +329,41 @@ display:flex;
     grid-template-columns: repeat(2, 1fr);
   }
   .project-card {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: rgba(235, 247, 254, 1);
     border-radius: 10px;
     box-shadow: 0 0 4px;
     
+  }
+  .yt {
+    display: flex;
+    justify-content: center;
+   
+
+  }
+  .yt-video{
+    width: 100%;
+  }
+  .yt-video img {
+    width: 80%;
+    padding: 20px;
+  }
+  .source-text{
+    width: 90%;
+    text-align: center;
+    align-items: center;
+   
+  }
+  .orgLogo {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .orgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

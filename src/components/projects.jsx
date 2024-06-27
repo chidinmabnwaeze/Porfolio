@@ -1,11 +1,14 @@
 import React from "react";
 import image1 from '../assets/images/image 1.png'
 import arrowo from "../assets/icons/arrow-outward.svg"
+import image2 from '../assets/images/image2.png'
+// import image3 from "../assets/images/img 3.png"
+// import image4 from "../assets/images/image 4.png"
 
 const projects = () => {
   const projectcard = [
     {
-      img: "",
+      img: image1,
       name: "SpeedKash",
       subText: "Fintech Web App",
       link: "Live Project",
@@ -14,7 +17,7 @@ const projects = () => {
       source: ""
     },
     {
-        img: "",
+        img: image2,
         name: "SpeedKash",
         subText: "Fintech Web App",
         link: "Live Project",
@@ -23,7 +26,7 @@ const projects = () => {
         source: ""
       },
       {
-        img: "",
+        img: image1,
         name: "SpeedKash",
         subText: "Fintech Web App",
         link: "Live Project",
@@ -32,7 +35,7 @@ const projects = () => {
         source: ""
       },
       {
-        img: "",
+        img: image1,
         name: "SpeedKash",
         subText: "Fintech Web App",
         link: "Live Project",
@@ -50,7 +53,7 @@ const projects = () => {
         <section className="myProjects">
       {projectcard.map((project, index)=>(
         <div className="project-card" key={index}>
-        <img src={image1}alt="" />
+        <img src={project.img}alt="" />
         <div className="card-details">
           <div className="cardName">
             <div className="title">

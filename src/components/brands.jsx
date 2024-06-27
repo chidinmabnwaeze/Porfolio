@@ -28,7 +28,7 @@ export default function Brands() {
         <div className="orgs" key={index}>
           <img className="org" src={org.img} alt="" />
         </div>
-      ))};
+      ))}
       </div>
     </div>
   );

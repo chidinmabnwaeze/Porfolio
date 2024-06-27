@@ -27,7 +27,7 @@ const youtube = () => {
             
           <div className="yt-video" key={index}>
             <img src={ytube.img} alt="" />
-            <label htmlFor="name">{ytube.label}</label>
+            <p className="video-name">{ytube.label}</p>
           </div>
         ))}
         </div>
