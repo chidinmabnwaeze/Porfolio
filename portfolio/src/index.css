@@ -92,8 +92,6 @@ transform: translateY(0);
 html {
   scroll-behavior: smooth;
 }
-body {
-}
 .header {
   display: flex;
   justify-content: space-between;
