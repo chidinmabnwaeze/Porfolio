@@ -66,7 +66,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-
+@keyframes hero {
+  from {
+transform: translateY(-300px);
+  }
+  to {
+transform: translateY(0);
+  }
+}
+@keyframes emoji {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(180deg);
+   
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -113,7 +129,7 @@ cursor: pointer;
   margin: 10px;
   color: rgba(89, 89, 89, 1);
   transition: all 3s ease-in-out;
-  /* animation: ; */
+  animation: hero 1s ease-in;
 }
 .welcome {
   font-size: 1.2rem;
@@ -136,10 +152,26 @@ cursor: pointer;
   border: none;
   background-color: black;
   color: white;
+  transition :0.5s ease-in-out
+}
+.CTA:hover{
+transform:translateY(10px);
+background-color: red;
+
 }
 .emoji {
   height: 21px;
   vertical-align: middle;
+  animation: emoji 1s linear ;
+
+  /* This is the full version rather than the shorthand property above
+  /* animation-name: emoji;
+  animation-duration: 1s;
+  animation-timing-function:ease-in-out;
+  animation-delay: 0s; 
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none; */
 }
 .role {
   color: rgba(3, 3, 3, 1);

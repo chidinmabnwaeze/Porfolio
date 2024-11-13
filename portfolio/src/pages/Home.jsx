@@ -18,7 +18,7 @@ const Home = () => {
           Welcome <img className="emoji" src={wavingHand} alt="" />
         </p>
         <p className="name">
-          I'm Nwaeze Chidinma Blessing, a a <br />
+          I'm Nwaeze Chidinma Blessing, a <br />
           <span className="role">Frontend Developer</span>
         </p>
         <p className="intro">
