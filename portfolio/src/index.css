@@ -89,6 +89,14 @@ cursor: pointer;
 display: grid;
 align-content: center;
 min-height: 100vh;
+
+}
+.js-home{
+  opacity: 0.6;
+  transition: all 1s ;
+}
+.show{
+  opacity: 1
 }
 .hero {
   display: flex;
@@ -114,6 +122,7 @@ min-height: 100vh;
   white-space: break-word;
   width: 60%;
   text-align: center;
+  padding: 1rem;
 }
 .CTA {
   margin: 10px;

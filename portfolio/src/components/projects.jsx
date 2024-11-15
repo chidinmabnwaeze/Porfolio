@@ -45,7 +45,7 @@ const projects = () => {
       }
   ];
   return (
-    <div className="projects">
+    <div className="projects js-scroll">
       <div className="heading">
         <p>Featured Projects</p>
         <hr />
