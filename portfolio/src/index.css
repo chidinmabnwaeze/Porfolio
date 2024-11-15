@@ -9,7 +9,7 @@ transform: translateY(-300px);
 transform: translateY(0);
   }
 }
-@keyframes emoji {
+@keyframes rotate {
   from {
     transform: rotate(0);
   }
@@ -35,6 +35,23 @@ transform: translateY(0);
     transform: translateY(-20px);
   }
 }
+@keyframes slideinLeft {
+  from{
+transform: translateX(-80px);
+  }
+  to {
+transform: translateX(0);
+  }
+}
+@keyframes slides {
+  from{
+    transform: translateX(-80px);
+  }
+  to{
+    transform: translateX(80px);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -113,7 +130,7 @@ background-color: red;
 .emoji {
   height: 21px;
   vertical-align: middle;
-  animation: emoji 1s linear  ;
+  animation: rotate 1s linear 2 ;
 
   /* This is the full version rather than the shorthand property above
   /* animation-name: emoji;
@@ -144,6 +161,7 @@ background-color: red;
   border-radius: 10px;
   box-shadow: 0 0 4px;
   margin: 2rem;
+  animation: slideinLeft 0.6s ease-out;
 }
 .project-card img {
   width: 100%;
@@ -198,6 +216,7 @@ background-color: red;
   align-self: center;
   margin: 10px;
   overflow: visible;
+  animation: slides 1s infinite;
 }
 .slides img {
   width: 150px;
@@ -269,6 +288,9 @@ background-color: red;
 .icon-links{
   display: flex;
   margin: 5px;
+}
+.icon-links:hover{
+animation: rotate 0.6s linear 2;
 }
 .findMe-links{
   display: flex;
