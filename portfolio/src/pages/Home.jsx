@@ -10,9 +10,11 @@ import Findme from "../components/findMe";
 import Footer from "../components/Footer";
 
 const Home = () => {
+
   return (
-    <div className="home">
+    <>
       <Header />
+    <main className="home">
       <section className="hero">
         <p className="welcome">
           Welcome <img className="emoji" src={wavingHand} alt="" />
@@ -38,7 +40,8 @@ const Home = () => {
       <Brands />
       <Findme />
       <Footer/>
-    </div>
+    </main>
+    </>
   );
 };
 

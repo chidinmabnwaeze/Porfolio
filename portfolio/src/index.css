@@ -86,7 +86,9 @@ cursor: pointer;
 }
 .home{
   transition: 3s ease-in-out;
-
+display: grid;
+align-content: center;
+min-height: 100vh;
 }
 .hero {
   display: flex;
@@ -216,7 +218,7 @@ background-color: red;
   align-self: center;
   margin: 10px;
   overflow: visible;
-  animation: slides 1s infinite;
+  animation: slides 1s linear infinite;
 }
 .slides img {
   width: 150px;
